@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta CNPJ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="position-absolute top-50 start-50 translate-middle">
+
+        <h1>Consultar CNPJ</h1>
+        <form method="POST">
+            <label for="cnpj">Digite o CNPJ da empresa (somente números):</label><br>
+            <input type="text" name="cnpj" placeholder="92754738000162" id="cnpj" required><br>
+            <input type="submit" class="btn btn-primary " value="Consultar">
+        </form>
+    </div>
+    <style>
+        .btn,
+        input {
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
